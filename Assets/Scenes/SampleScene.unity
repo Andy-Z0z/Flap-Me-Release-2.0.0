@@ -1360,12 +1360,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a07faac47ebea5840ae8c6a452498f60, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 91595dddd45bbb64e98139f3a10c68a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 3.1, y: 1.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1449,8 +1449,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
-    newSize: {x: 5.12, y: 5.12}
+    oldSize: {x: 5.35, y: 5.16}
+    newSize: {x: 3.1, y: 1.76}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1467,14 +1467,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1789478193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 749e10bb35f8da84bbcbd089a05ab628, type: 3}
+  m_Script: {fileID: 11500000, guid: d21d0acebef2333478892df573094bf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1789478196}
   flapStrength: 3
   startPlay: 1
   logic: {fileID: 0}
-  birdIsAlive: 1
+  birdIsAlive: 0
   spawner: {fileID: 1520626636}
   gameOverScreen: {fileID: 1171603398}
 --- !u!1 &2024608273

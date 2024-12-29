@@ -6,5 +6,6 @@ namespace Date
     {
         public static Sprite sprite;
         public static GameObject background;
+        public static Sprite pipeSprite;
     }
 }

@@ -624,7 +624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Release (v 1.0.0)
+  m_Text: Release (v 2.0.0)
 --- !u!222 &431635067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1038,7 +1038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -486, y: 236}
+  m_AnchoredPosition: {x: -474, y: 236}
   m_SizeDelta: {x: 318.2543, y: 95.0721}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504817272

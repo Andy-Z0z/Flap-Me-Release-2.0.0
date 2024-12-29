@@ -39,6 +39,7 @@ public class BirdScript : MonoBehaviour
             }
             myRigidbody.velocity = Vector2.up * flapStrength;
         }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D other)

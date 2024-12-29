@@ -1,3 +1,4 @@
+using Date;
 using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class PipeSpawner : MonoBehaviour
         {
             Instantiate(pipe, new Vector3(transform.position.x, Random.Range(down,top), 0), transform.rotation);
             timer = 0;
+            var pipes = GameObject.FindGameObjectsWithTag("Pipe");
+            foreach (var pipe in pipes)
+                pipe.GetComponent<SpriteRenderer>().sprite = GameData.pipeSprite;
         }
     }
 }
